@@ -6,7 +6,7 @@ export const App = () => {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
-  const [names, setNames] = useState([
+  const [names] = useState([
     { id: 'id-1', name: 'good', title: 'Good' },
     { id: 'id-2', name: 'neutral', title: 'Neutral' },
     { id: 'id-3', name: 'bad', title: 'Bad' },
